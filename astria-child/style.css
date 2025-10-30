@@ -1,0 +1,62 @@
+/*
+Theme Name: Astra Child
+Template: astra
+Version: 4.0.3
+Text Domain: astra-child
+Description: Thème enfant basé sur Astra (footer personnalisé).
+*/
+
+/* Ton CSS perso ici au besoin */
+:root {
+    --dark-green: #344E41;
+    --green: #3A5A40;
+    --light-green: #588157;
+    --lighter-green: #A3B18A;
+    --light: #DAD7CD;
+}
+
+
+.has-ast-global-color-5-background-color{ background-color: var(--light) !important; padding-top: 60px !important; padding-bottom: 60px !important; color: black;}
+.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-100{ background: var(--green) !important;}
+#about { background: var(--green) !important; color: white;}
+#about h2{ color: white;}
+#reviews { background: var(--light) !important; color: black !important; }
+#whyus { background: var(--lighter-green) !important; color: black;}
+#services { background: var(--lighter-green); padding-top: 60px !important; padding-bottom: 60px !important; color: black;}
+#contact { background: var(--green) !important;}
+
+
+header{ background-color: var(--dark-green); color: white !important;}
+footer{ background-color:var(--dark-green); color: white;}
+
+
+.logo { display: flex; padding: 2rem;}
+.nav{ display: flex; text-decoration: none; justify-content: space-between; padding: 1.5rem;}
+nav ul li{ list-style: none; display: inline; margin-left: 2rem; }
+
+#ast-scroll-top{ background-color: #211a22 !important;}
+.wp-block-button .wp-block-button__link{ background-color: var(--light); color: black; }
+.wp-block-button .wp-block-button__link:hover{ background-color: var(--light-green); color: white; }
+
+
+
+a{ color: rgb(255, 255, 255); text-decoration: none; font-size: large;}
+a:hover{ color: var(--post3); text-decoration: none; }
+h1, h2, h3, h4, h5, h6{ color: white; }
+.ast-404-layout-1 h1.page-title{ color: white; }
+.position{ display: flex; justify-content: center;}
+.copyright{ padding-top: 10px; padding-bottom: 10px; margin-bottom: 0px; background-color: var(--post2);}
+
+
+
+.dflex{ display: flex; justify-content: space-between; }
+.footer-grid{  
+    padding: 35px;
+    width: auto;
+    display: flex;
+}
+.footer-col{ padding: 0 50px; width: 20rem}
+.footer-col h4{ margin:0 0 8px; font-size:1.35rem; }
+.footer-col ul{ list-style:none; padding:0; margin:0; }
+.footer-col ul li{ margin:6px 0;}
+.copy{ margin-top:12px; opacity:.8; display: flex; justify-content: center; }
